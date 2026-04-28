@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dieta Carnívora — 7 Dias</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f0c09">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<style>
+:root {
+  --bg:#0f0c09;
+  --surface:#1a1510;
+  --card:#211c16;
+  --border:#3a2e22;
+  --accent:#c87941;
+  --accent2:#e8a96a;
+  --text:#f0e8dc;
+  --muted:#8a7a68;
+}
+body {
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial, sans-serif;
+  padding:20px;
+}
+h1 { color:var(--accent); }
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Dieta Carnívora — 7 Dias</h1>
+
+<div class="card">Plano pronto para uso offline no iPhone.</div>
+<div class="card">Adicione à tela de início pelo Safari.</div>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+
+</body>
+</html>
